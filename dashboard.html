@@ -11,22 +11,51 @@
 
     
 </head>
-<body class="bg-gray-100 min-h-screen p-8 ">
+<body class="bg-gray-100 flex-h-screen p-2 ">
+<aside class="w-64 bg white fixed  ">
+    <div class="p-6 bg-blue-500">
+            <span class=" bi bi-speedometer bg -blue-500">Dahboard</span>
+    </div>
+     <div class="p-6 bg-blue-200 ">
+            <span class=" bi bi-house ">Overview</span>
+    </div>
+     
+     <div class="p-6">
+            <span class=" bi bi-people ">Users</span>
+    </div>
+     <div class="p-6">
+            <span class=" bi bi-box-seam py-2 ">Products</span>
+    </div>
+     <div class="p-6">
+            <span class=" bi bi-cart ">Orders</span>
+    </div>
+     <div class="p-6 bg-">
+            <span class=" bi bi-gear">Setting</span>
+    </div>
+     <div class="p-6 ">
+            <span class=" bi bi-box-arrow-right ">Logout</span>
+    </div>
 
-    
+</aside>
+<div class="min-h-screen flex flex-col">
+    <main class="flex-1 ml-64 p-8 overflow-y-auto">
+    <header>
     <h1 class="text-xl font-bold">Overview</h1>
+    <div class="flex items-center gap-3">
+    <span class="text-xl-end">Welcome User</span>
+    </div>
+    </header>
 
-
-    <section class="grid grid-cols-4 gap-4">
+    <section class="grid grid-cols-4 gap-6">
         <div class="card  p-4 rounded shadow  ">
-            <span class="bi bi-people"></span>
+            <span class="bi bi-people bg-blue-500"></span>
             <h2>Users</h2>
             <p class="text-2xl font-bold">120</p>
             <p class="text-blue-500">+12 this week</p>
         </div>
         <div class="card bg-white p-4 rounded shadow ">
 
-            <span class="bi bi-box-seam"></span>
+            <span class="h-4 w-5 bi bi-box-seam"></span>
             <h2>Products</h2>
             <p class="text-2xl font-bold">80</p>
             <p class="text-green-500">+5 this week</p>
@@ -82,5 +111,6 @@
             </tbody>
         </table>
     </section>
+    </main>
 </body>
 </html>
