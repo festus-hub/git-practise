@@ -23,8 +23,8 @@
      <div class="p-6 m-3">
             <span class=" bi bi-people ">Users</span>
     </div>
-     <div class="p-6 m-3">
-            <span class=" bi bi-box-seam py-2 ">Products</span>
+     <div class="p-6 m-3 ">
+            <span class=" bi bi-box-seam ">Products</span>
     </div>
      <div class="p-6 m-3">
             <span class=" bi bi-cart ">Orders</span>
@@ -32,7 +32,7 @@
      <div class="p-6 m-3">
             <span class=" bi bi-gear">Setting</span>
     </div>
-     <div class="p-6 m-3">
+     <div class="p-6 m-3 ">
             <span class=" bi bi-box-arrow-right ">Logout</span>
     </div>
 
@@ -40,34 +40,37 @@
 <div class="min-h-screen flex flex-col">
     <main class="flex-1 ml-64 p-8 overflow-y-auto">
     <header>
-    <h1 class="text-xl font-bold">Overview</h1>
-    <div class="flex items-center gap-3">
-    <span class="text-xl text-right">Welcome User</span>
+    <h1 class="text-xl font-bold ">Overview</h1>
+    <div class="flex items-end gap-3 justify-end">
+        <h3>Welcome, User</h3>
+    <span class="text-xl bi-circle  ">
+
+    </span>
     </div>
     </header>
 
     <section class="grid grid-cols-4 gap-6">
         <div class="card  p-4 rounded shadow  ">
-            <span class="bi bi-people bg-blue-500"></span>
+            <span class="bi bi-people  text-2xl "></span>
             <h2>Users</h2>
             <p class="text-2xl font-bold">120</p>
-            <p class="text-blue-500">+12 this week</p>
+            <p class="text-blue-700">+12 this week</p>
         </div>
         <div class="card bg-white p-4 rounded shadow ">
 
-            <span class="h-4 w-5 bi bi-box-seam"></span>
+            <span class=" bi bi-box-seam text-2xl"></span>
             <h2>Products</h2>
             <p class="text-2xl font-bold">80</p>
             <p class="text-green-700">+5 this week</p>
         </div>
         <div class="card bg-white p-4 rounded shadow ">
-            <span class="bi bi-cart"></span>
+            <span class="bi bi-cart text-2xl"></span>
             <h2>Orders</h2>
             <p class="text-2xl font-bold">150</p>
             <p class="text-indigo-500">+20 this week</p>
         </div>
         <div class="card bg-white p-4 rounded shadow ">
-            <span class="bi bi-currency-dollar "></span>
+            <span class="bi bi-currency-dollar text-2xl "></span>
             <h2>Revenue</h2>
             <p class="text-2xl font-bold">$4,560</p>
             <p class="text-yellow-500">+8% this week</p>
@@ -79,7 +82,7 @@
         <table class="min-w-full bg-white rounded shadow">
             <thead>
                 <tr>
-                    <td class="py-2 px-4 border-b text-black text-sm font-bold">Order ID</td>
+                    <td class="py-2 px-4 border-b text-black text-sm font-bold ">Order ID</td>
                     <td class="py-2 px-4 border-b text-black text-sm font-bold">Customer</td>
                     <td class="py-2 px-4 border-b text-black text-sm font-bold">Date</td>
                     <td class="py-2 px-4 border-b text-black text-sm font-bold">Amount</td>
@@ -89,7 +92,7 @@
             <tbody>
                 <tr>
                     <td class="py-2 px-4 border-b">#001</td>
-                    <td class="py-2 px-4 border-b">John Doe</td>
+                    <td class="py-2 px-4 border-b ">John Doe</td>
                     <td class="py-2 px-4 border-b">May 20, 2024</td>
                     <td class="py-2 px-4 border-b">$120.00</td>
                     <td class="py-2 px-4 border-b text-green-500 hover:text-green">Completed</td>
@@ -111,6 +114,7 @@
             </tbody>
         </table>
     </section>
+    
     </main>
 </body>
 </html>
